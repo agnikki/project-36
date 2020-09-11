@@ -6,13 +6,13 @@ var foodObj;
 var feed, addFood;
 var gameState, readState;
 function preload() {
-  bedroomI = loadImage("virutal pet images/Bed Room.png");
-   gardenI = loadImage("virutal pet images/Garden.png");
-  lazy = loadImage("virutal pet images/Lazy.png");
-  livingroomI = loadImage("virutal pet images/Living Room.png");
-    washroomI = loadImage("virutal pet images/Wash Room.png");
-  dog_img = loadImage("virutal pet images/Dog.png");
-  happyDog = loadImage("virutal pet images/happy dog.png");
+  bedroomI = loadImage("Bed Room.png");
+   gardenI = loadImage("Garden.png");
+  lazy = loadImage("Lazy.png");
+  livingroomI = loadImage("Living Room.png");
+    washroomI = loadImage("Wash Room.png");
+  dog_img = loadImage("Dog.png");
+  happyDog = loadImage("happy dog.png");
 }
 
 function setup() {
