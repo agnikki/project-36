@@ -6,18 +6,18 @@ var foodObj;
 var feed, addFood;
 var gameState, readState;
 function preload() {
-  bedroomI = loadImage("Bed Room.png");
-   gardenI = loadImage("Garden.png");
-  lazy = loadImage("Lazy.png");
-  livingroomI = loadImage("Living Room.png");
-    washroomI = loadImage("Wash Room.png");
+  bedroomI = loadImage("images/Bed Room.png");
+   gardenI = loadImage("images/Garden.png");
+  lazy = loadImage("images/Lazy.png");
+  livingroomI = loadImage("images/Living Room.png");
+    washroomI = loadImage("images/Wash Room.png");
   dog_img = loadImage("Dog.png");
-  happyDog = loadImage("happy dog.png");
+  happyDog = loadImage("happydog.png");
 }
 
 function setup() {
   database = firebase.database();
-  createCanvas(400, 500);
+  createCanvas(500, 500);
   foodObj=new Food();
   
   foodStock = database.ref('food');
